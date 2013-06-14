@@ -1,5 +1,5 @@
 def mtsqrt(x, s, kmax):
-    tol = 1.e-20
+    tol = 1.e-25
     for k in range(kmax):
     	print "Before iteration %s, s = %20.15f" %(k,s)
     	s0 = s
