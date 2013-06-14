@@ -1,3 +1,8 @@
+"""
+Module to approximate square-root.
+
+"""
+
 def mtsqrt(x, s, kmax):
     tol = 1.e-25
     for k in range(kmax):
